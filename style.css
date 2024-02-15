@@ -4,12 +4,12 @@
         font-family: 'Varela Round';
     }
     .container{
-        width: 700px;
+        width: 695px;
         min-height: 600px;
         margin: 0px auto;
         padding: 25px 25px 12px 25px;
-        background: rgb(154, 161, 161);
-        background: linear-gradient(49deg, rgba(134, 151, 151, 0.443) 31%, rgba(191, 220, 220, 0.443) 46%, rgba(242,254,254,1) 78%, rgb(171, 228, 228) 100%);
+        background: rgba(229, 238, 238, 0.076);
+        background: linear-gradient(49deg, rgb(201, 229, 229) 1%, rgba(252, 255, 255, 0.922) 20%, rgba(247, 248, 248, 0.018) 60%, rgb(229, 244, 244) 100%);
         border: 1px dotted black;
     }
     .avatar{
@@ -17,7 +17,7 @@
         width: 240px;
         min-height: 200px;
     }
-        .container .avatar img{                    /*/ bug issue /*/
+        .container .avatar img{                  
         display: inline-block;
         width: 240px;
         min-height: 200px;
@@ -62,49 +62,50 @@
     }
     main{
         letter-spacing: 0.9px;
-        width: 690px;
-        height: 120px;
+        width: 650px;
+        height: 200px;
         margin-top: 12px;
-        background-color: rgba(128, 128, 128, 0.061);
-        padding: 12px 0px;
+        padding: 12px 0px 0px 15px;
+        background: rgb(224,228,228);
+        background: linear-gradient(48deg, rgba(224,228,228,0.7762702493106618) 0%, rgba(218,221,221,0.24125624370842091) 62%, rgba(212,214,214,0.2860741708792892) 77%, rgba(201,201,201,1) 100%);
     }
     main h2{
         text-align: center;
         font-size: 15px;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
         margin-bottom: 8px;
         color: black;
     }
     main p{
-        padding: 5px;
-        width: 650px;
-        margin-left: 15px;
-        font-size: 10px;
-        text-align: start;
-        letter-spacing: 0.9px;
-        line-height: 1.1;
+        padding: 5px 5px 5px 10px;
+        width: 600px;
+        margin-left: 20px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 1.5;
     }
-    article{
+    .wrapper{
         margin-top: 20px;
         padding-top: 15px;
         width: 690px;
-        height: 300px;
+        height: 250px;
         display: inline-block;
     }
-        article section{
+        .wrapper section{
         vertical-align: top;
         width: 300px;
         display: inline-block;
         margin-left: 30px;
-        height: 300px;
+        height: 250px;
     }
-        article section .list{
+        .wrapper section .list{
         display: inline-block;
         width: 300px;
-        height: 300px;
-        background-color: rgba(128, 128, 128, 0.061);
+        height: 270px;
+        background: rgb(224,228,228);
+        background: linear-gradient(48deg, rgba(224,228,228,0.7762702493106618) 0%, rgba(218,221,221,0.24125624370842091) 62%, rgba(212,214,214,0.2860741708792892) 77%, rgba(201,201,201,1) 100%);
     }
-        article section h3{
+        .wrapper section h3{
         text-align: center;
         font-size: 15px;
         letter-spacing: 1px;
@@ -122,10 +123,10 @@
     section .list h4{
         text-align: center;
         font-size: 15px;
-        padding-bottom: 23px;
         padding-top: 5px;
     }
     section .list h5, h6{
+        padding-top: 12px;
         padding-left: 15px;
         text-align: start;
         font-size: 12px;
@@ -133,10 +134,12 @@
     section .list p{
         text-align: start;
         font-size: 10px;
-        padding: 10px 12px 10px 25px;
+        padding: 5px 12px 10px 13px;
         letter-spacing: 0.9px;
+        line-height: 1.5;
     }
     footer{
+        padding-top: 2px;
         min-width: 600px;
         height: 60px;
         text-align: center;
@@ -146,12 +149,13 @@
         color: gray;
     }
     footer img{
-        width: 20px;
-        height: 15px;
+        width: 25px;
+        height: 18px;
         border-radius: 100%;
+        display: inline-block;
     }
     footer .social-midia{
-        width: 20px;
-        height: 15px;
-        border-radius: 5px;
+        width: 25px;
+        height: 18px;
+        border-radius: 3px;
     }
