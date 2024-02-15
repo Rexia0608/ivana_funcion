@@ -1,0 +1,157 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Varela Round';
+    }
+    .container{
+        width: 700px;
+        min-height: 600px;
+        margin: 0px auto;
+        padding: 25px 25px 12px 25px;
+        background: rgb(154, 161, 161);
+        background: linear-gradient(49deg, rgba(134, 151, 151, 0.443) 31%, rgba(191, 220, 220, 0.443) 46%, rgba(242,254,254,1) 78%, rgb(171, 228, 228) 100%);
+        border: 1px dotted black;
+    }
+    .avatar{
+        display: inline-block;
+        width: 240px;
+        min-height: 200px;
+    }
+        .container .avatar img{                    /*/ bug issue /*/
+        display: inline-block;
+        width: 240px;
+        min-height: 200px;
+    }
+    header{
+        display: inline-block;
+        width: 410px;
+        min-height: 90px;
+        vertical-align: top;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    header h1{
+        text-align: start;
+        margin-left: 20px;
+        width: 370px;
+        font-size: 30px;
+        font-weight: bolder;
+        letter-spacing: 7px;
+    }
+    header p{
+        width: 370px;
+        text-align: start;
+        border-bottom: 2px solid rgb(84, 93, 187);
+        padding-bottom: 15px;
+        font-size: 12px;
+        font-weight: bolder;
+        margin: 12px 0px 12px 20px;
+    }
+    ul{
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    ul li{
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 15px;
+        font-size: 13px;
+        font-weight: 100;
+        color: black;
+        text-align: start;
+    }
+    main{
+        letter-spacing: 0.9px;
+        width: 690px;
+        height: 120px;
+        margin-top: 12px;
+        background-color: rgba(128, 128, 128, 0.061);
+        padding: 12px 0px;
+    }
+    main h2{
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+        color: black;
+    }
+    main p{
+        padding: 5px;
+        width: 650px;
+        margin-left: 15px;
+        font-size: 10px;
+        text-align: start;
+        letter-spacing: 0.9px;
+        line-height: 1.1;
+    }
+    article{
+        margin-top: 20px;
+        padding-top: 15px;
+        width: 690px;
+        height: 300px;
+        display: inline-block;
+    }
+        article section{
+        vertical-align: top;
+        width: 300px;
+        display: inline-block;
+        margin-left: 30px;
+        height: 300px;
+    }
+        article section .list{
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        background-color: rgba(128, 128, 128, 0.061);
+    }
+        article section h3{
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .tech{
+        margin-left: 40px;
+        margin-top: 8px;
+    }
+    .tech img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 35px;
+    }
+    section .list h4{
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 23px;
+        padding-top: 5px;
+    }
+    section .list h5, h6{
+        padding-left: 15px;
+        text-align: start;
+        font-size: 12px;
+    }
+    section .list p{
+        text-align: start;
+        font-size: 10px;
+        padding: 10px 12px 10px 25px;
+        letter-spacing: 0.9px;
+    }
+    footer{
+        min-width: 600px;
+        height: 60px;
+        text-align: center;
+    }
+    footer li a{
+        font-size: 10px;
+        color: gray;
+    }
+    footer img{
+        width: 20px;
+        height: 15px;
+        border-radius: 100%;
+    }
+    footer .social-midia{
+        width: 20px;
+        height: 15px;
+        border-radius: 5px;
+    }
